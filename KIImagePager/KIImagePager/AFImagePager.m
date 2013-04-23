@@ -179,7 +179,7 @@
 
 - (void) imageTapped:(UITapGestureRecognizer *)sender
 {
-    if(_delegate)
+    if(_delegate && [_delegate respondsToSelector:@selector(imagePager:didSelectImageAtIndex:)])
         [_delegate imagePager:self didSelectImageAtIndex:[(UIGestureRecognizer *)sender view].tag];
 }
 

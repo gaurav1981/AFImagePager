@@ -13,7 +13,7 @@
 
 @class AFImagePager;
 
-@protocol KIImagePagerDataSource
+@protocol KIImagePagerDataSource<NSObject>
 
 @required
 - (NSArray *) arrayWithImageUrlStrings;
@@ -24,7 +24,7 @@
 
 @end
 
-@protocol KIImagePagerDelegate
+@protocol KIImagePagerDelegate<NSObject>
 
 @optional
 - (void) imagePager:(AFImagePager *)imagePager didScrollToIndex:(NSUInteger)index;
