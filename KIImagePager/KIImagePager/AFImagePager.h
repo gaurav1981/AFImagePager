@@ -11,7 +11,7 @@
 
 #import "UIImageView+WebCache.h"
 
-@class KIImagePager;
+@class AFImagePager;
 
 @protocol KIImagePagerDataSource
 
@@ -27,12 +27,12 @@
 @protocol KIImagePagerDelegate
 
 @optional
-- (void) imagePager:(KIImagePager *)imagePager didScrollToIndex:(NSUInteger)index;
-- (void) imagePager:(KIImagePager *)imagePager didSelectImageAtIndex:(NSUInteger)index;
+- (void) imagePager:(AFImagePager *)imagePager didScrollToIndex:(NSUInteger)index;
+- (void) imagePager:(AFImagePager *)imagePager didSelectImageAtIndex:(NSUInteger)index;
 
 @end
 
-@interface KIImagePager : UIView
+@interface AFImagePager : UIView
 
 @property (weak) IBOutlet id <KIImagePagerDataSource> dataSource;
 @property (weak) IBOutlet id <KIImagePagerDelegate> delegate;

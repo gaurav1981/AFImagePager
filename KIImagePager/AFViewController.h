@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "KIImagePager.h"
 
-@interface KIViewController : UIViewController
+@interface AFViewController : UIViewController
 
 @end

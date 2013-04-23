@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 Marcus Kida. All rights reserved.
 //
 
-#import "KIViewController.h"
+#import "AFViewController.h"
 
-@interface KIViewController () <KIImagePagerDelegate, KIImagePagerDataSource>
+@interface AFViewController () <KIImagePagerDelegate, KIImagePagerDataSource>
 {
     IBOutlet KIImagePager *_imagePager;
 }
 @end
 
-@implementation KIViewController
+@implementation AFViewController
 
 - (void)viewDidLoad
 {

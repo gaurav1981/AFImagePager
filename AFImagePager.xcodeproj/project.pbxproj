@@ -11,20 +11,13 @@
 		2A10304C17114B9100333366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A10304B17114B9100333366 /* Foundation.framework */; };
 		2A10305417114B9100333366 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A10305217114B9100333366 /* InfoPlist.strings */; };
 		2A10305617114B9100333366 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10305517114B9100333366 /* main.m */; };
-		2A10305A17114B9100333366 /* KIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10305917114B9100333366 /* KIAppDelegate.m */; };
+		2A10305A17114B9100333366 /* AFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10305917114B9100333366 /* AFAppDelegate.m */; };
 		2A10305C17114B9100333366 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A10305B17114B9100333366 /* Default.png */; };
 		2A10305E17114B9100333366 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A10305D17114B9100333366 /* Default@2x.png */; };
 		2A10306017114B9100333366 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A10305F17114B9100333366 /* Default-568h@2x.png */; };
 		2A10306317114B9100333366 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A10306117114B9100333366 /* MainStoryboard.storyboard */; };
-		2A10306617114B9100333366 /* KIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10306517114B9100333366 /* KIViewController.m */; };
-		2A10306F17114BC300333366 /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10306E17114BC300333366 /* KIImagePager.m */; };
-		2A10308C171161EF00333366 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A103075171161EF00333366 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A10308D171161EF00333366 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10307C171161EF00333366 /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A10308E171161EF00333366 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10307E171161EF00333366 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A10308F171161EF00333366 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A103081171161EF00333366 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A103090171161EF00333366 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A103084171161EF00333366 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A103091171161EF00333366 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A103086171161EF00333366 /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2A103092171161EF00333366 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A103088171161EF00333366 /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2A10306617114B9100333366 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10306517114B9100333366 /* AFViewController.m */; };
+		2A10306F17114BC300333366 /* AFImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A10306E17114BC300333366 /* AFImagePager.m */; };
 		2A103098171168C100333366 /* KICamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A103096171168C100333366 /* KICamera.png */; };
 		2A103099171168C100333366 /* KICamera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A103097171168C100333366 /* KICamera@2x.png */; };
 		2A10309B171169B300333366 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A10309A171169B300333366 /* QuartzCore.framework */; };
@@ -32,41 +25,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A10304617114B9100333366 /* KIImagePager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIImagePager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A10304617114B9100333366 /* AFImagePager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFImagePager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A10304917114B9100333366 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2A10304B17114B9100333366 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2A10305117114B9100333366 /* KIImagePager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KIImagePager-Info.plist"; sourceTree = "<group>"; };
+		2A10305117114B9100333366 /* AFImagePager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFImagePager-Info.plist"; sourceTree = "<group>"; };
 		2A10305317114B9100333366 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A10305517114B9100333366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A10305717114B9100333366 /* KIImagePager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KIImagePager-Prefix.pch"; sourceTree = "<group>"; };
-		2A10305817114B9100333366 /* KIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIAppDelegate.h; sourceTree = "<group>"; };
-		2A10305917114B9100333366 /* KIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIAppDelegate.m; sourceTree = "<group>"; };
+		2A10305717114B9100333366 /* AFImagePager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFImagePager-Prefix.pch"; sourceTree = "<group>"; };
+		2A10305817114B9100333366 /* AFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppDelegate.h; sourceTree = "<group>"; };
+		2A10305917114B9100333366 /* AFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFAppDelegate.m; sourceTree = "<group>"; };
 		2A10305B17114B9100333366 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2A10305D17114B9100333366 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2A10305F17114B9100333366 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2A10306217114B9100333366 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		2A10306417114B9100333366 /* KIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIViewController.h; sourceTree = "<group>"; };
-		2A10306517114B9100333366 /* KIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIViewController.m; sourceTree = "<group>"; };
-		2A10306D17114BC300333366 /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
-		2A10306E17114BC300333366 /* KIImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImagePager.m; sourceTree = "<group>"; };
-		2A103074171161EF00333366 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
-		2A103075171161EF00333366 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
-		2A103076171161EF00333366 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
-		2A10307A171161EF00333366 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
-		2A10307B171161EF00333366 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
-		2A10307C171161EF00333366 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
-		2A10307D171161EF00333366 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
-		2A10307E171161EF00333366 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
-		2A10307F171161EF00333366 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
-		2A103080171161EF00333366 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
-		2A103081171161EF00333366 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
-		2A103082171161EF00333366 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
-		2A103083171161EF00333366 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		2A103084171161EF00333366 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		2A103085171161EF00333366 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
-		2A103086171161EF00333366 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
-		2A103087171161EF00333366 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		2A103088171161EF00333366 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		2A10306417114B9100333366 /* AFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
+		2A10306517114B9100333366 /* AFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
+		2A10306D17114BC300333366 /* AFImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImagePager.h; sourceTree = "<group>"; };
+		2A10306E17114BC300333366 /* AFImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImagePager.m; sourceTree = "<group>"; };
 		2A103096171168C100333366 /* KICamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KICamera.png; sourceTree = "<group>"; };
 		2A103097171168C100333366 /* KICamera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KICamera@2x.png"; sourceTree = "<group>"; };
 		2A10309A171169B300333366 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -91,7 +66,7 @@
 		2A10303D17114B9100333366 = {
 			isa = PBXGroup;
 			children = (
-				2A10304F17114B9100333366 /* KIImagePager */,
+				2A10304F17114B9100333366 /* AFImagePager */,
 				2A10304817114B9100333366 /* Frameworks */,
 				2A10304717114B9100333366 /* Products */,
 			);
@@ -100,7 +75,7 @@
 		2A10304717114B9100333366 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A10304617114B9100333366 /* KIImagePager.app */,
+				2A10304617114B9100333366 /* AFImagePager.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,28 +91,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2A10304F17114B9100333366 /* KIImagePager */ = {
+		2A10304F17114B9100333366 /* AFImagePager */ = {
 			isa = PBXGroup;
 			children = (
-				2A103070171161EF00333366 /* SDWebImage */,
-				2A10306C17114BAD00333366 /* KIImagePager */,
-				2A10305817114B9100333366 /* KIAppDelegate.h */,
-				2A10305917114B9100333366 /* KIAppDelegate.m */,
+				2A10306C17114BAD00333366 /* AFImagePager */,
+				2A10305817114B9100333366 /* AFAppDelegate.h */,
+				2A10305917114B9100333366 /* AFAppDelegate.m */,
 				2A10306117114B9100333366 /* MainStoryboard.storyboard */,
-				2A10306417114B9100333366 /* KIViewController.h */,
-				2A10306517114B9100333366 /* KIViewController.m */,
+				2A10306417114B9100333366 /* AFViewController.h */,
+				2A10306517114B9100333366 /* AFViewController.m */,
 				2A10305017114B9100333366 /* Supporting Files */,
 			);
+			name = AFImagePager;
 			path = KIImagePager;
 			sourceTree = "<group>";
 		};
 		2A10305017114B9100333366 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A10305117114B9100333366 /* KIImagePager-Info.plist */,
+				2A10305117114B9100333366 /* AFImagePager-Info.plist */,
 				2A10305217114B9100333366 /* InfoPlist.strings */,
 				2A10305517114B9100333366 /* main.m */,
-				2A10305717114B9100333366 /* KIImagePager-Prefix.pch */,
+				2A10305717114B9100333366 /* AFImagePager-Prefix.pch */,
 				2A10305B17114B9100333366 /* Default.png */,
 				2A10305D17114B9100333366 /* Default@2x.png */,
 				2A10305F17114B9100333366 /* Default-568h@2x.png */,
@@ -145,48 +120,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2A10306C17114BAD00333366 /* KIImagePager */ = {
+		2A10306C17114BAD00333366 /* AFImagePager */ = {
 			isa = PBXGroup;
 			children = (
 				2A103096171168C100333366 /* KICamera.png */,
 				2A103097171168C100333366 /* KICamera@2x.png */,
-				2A10306D17114BC300333366 /* KIImagePager.h */,
-				2A10306E17114BC300333366 /* KIImagePager.m */,
+				2A10306D17114BC300333366 /* AFImagePager.h */,
+				2A10306E17114BC300333366 /* AFImagePager.m */,
 			);
+			name = AFImagePager;
 			path = KIImagePager;
 			sourceTree = "<group>";
-		};
-		2A103070171161EF00333366 /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				2A103074171161EF00333366 /* SDImageCache.h */,
-				2A103075171161EF00333366 /* SDImageCache.m */,
-				2A103076171161EF00333366 /* SDImageCacheDelegate.h */,
-				2A10307A171161EF00333366 /* SDWebImageCompat.h */,
-				2A10307B171161EF00333366 /* SDWebImageDecoder.h */,
-				2A10307C171161EF00333366 /* SDWebImageDecoder.m */,
-				2A10307D171161EF00333366 /* SDWebImageDownloader.h */,
-				2A10307E171161EF00333366 /* SDWebImageDownloader.m */,
-				2A10307F171161EF00333366 /* SDWebImageDownloaderDelegate.h */,
-				2A103080171161EF00333366 /* SDWebImageManager.h */,
-				2A103081171161EF00333366 /* SDWebImageManager.m */,
-				2A103082171161EF00333366 /* SDWebImageManagerDelegate.h */,
-				2A103083171161EF00333366 /* SDWebImagePrefetcher.h */,
-				2A103084171161EF00333366 /* SDWebImagePrefetcher.m */,
-				2A103085171161EF00333366 /* UIButton+WebCache.h */,
-				2A103086171161EF00333366 /* UIButton+WebCache.m */,
-				2A103087171161EF00333366 /* UIImageView+WebCache.h */,
-				2A103088171161EF00333366 /* UIImageView+WebCache.m */,
-			);
-			path = SDWebImage;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A10304517114B9100333366 /* KIImagePager */ = {
+		2A10304517114B9100333366 /* AFImagePager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A10306917114B9100333366 /* Build configuration list for PBXNativeTarget "KIImagePager" */;
+			buildConfigurationList = 2A10306917114B9100333366 /* Build configuration list for PBXNativeTarget "AFImagePager" */;
 			buildPhases = (
 				2A10304217114B9100333366 /* Sources */,
 				2A10304317114B9100333366 /* Frameworks */,
@@ -196,9 +147,9 @@
 			);
 			dependencies = (
 			);
-			name = KIImagePager;
+			name = AFImagePager;
 			productName = KIImagePager;
-			productReference = 2A10304617114B9100333366 /* KIImagePager.app */;
+			productReference = 2A10304617114B9100333366 /* AFImagePager.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +162,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Marcus Kida";
 			};
-			buildConfigurationList = 2A10304117114B9100333366 /* Build configuration list for PBXProject "KIImagePager" */;
+			buildConfigurationList = 2A10304117114B9100333366 /* Build configuration list for PBXProject "AFImagePager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,7 +174,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A10304517114B9100333366 /* KIImagePager */,
+				2A10304517114B9100333366 /* AFImagePager */,
 			);
 		};
 /* End PBXProject section */
@@ -251,16 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A10305617114B9100333366 /* main.m in Sources */,
-				2A10305A17114B9100333366 /* KIAppDelegate.m in Sources */,
-				2A10306617114B9100333366 /* KIViewController.m in Sources */,
-				2A10306F17114BC300333366 /* KIImagePager.m in Sources */,
-				2A10308C171161EF00333366 /* SDImageCache.m in Sources */,
-				2A10308D171161EF00333366 /* SDWebImageDecoder.m in Sources */,
-				2A10308E171161EF00333366 /* SDWebImageDownloader.m in Sources */,
-				2A10308F171161EF00333366 /* SDWebImageManager.m in Sources */,
-				2A103090171161EF00333366 /* SDWebImagePrefetcher.m in Sources */,
-				2A103091171161EF00333366 /* UIButton+WebCache.m in Sources */,
-				2A103092171161EF00333366 /* UIImageView+WebCache.m in Sources */,
+				2A10305A17114B9100333366 /* AFAppDelegate.m in Sources */,
+				2A10306617114B9100333366 /* AFViewController.m in Sources */,
+				2A10306F17114BC300333366 /* AFImagePager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KIImagePager/KIImagePager-Prefix.pch";
-				INFOPLIST_FILE = "KIImagePager/KIImagePager-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KIImagePager/AFImagePager-Prefix.pch";
+				INFOPLIST_FILE = "KIImagePager/AFImagePager-Info.plist";
+				PRODUCT_NAME = AFImagePager;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -357,9 +301,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KIImagePager/KIImagePager-Prefix.pch";
-				INFOPLIST_FILE = "KIImagePager/KIImagePager-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "KIImagePager/AFImagePager-Prefix.pch";
+				INFOPLIST_FILE = "KIImagePager/AFImagePager-Info.plist";
+				PRODUCT_NAME = AFImagePager;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -367,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A10304117114B9100333366 /* Build configuration list for PBXProject "KIImagePager" */ = {
+		2A10304117114B9100333366 /* Build configuration list for PBXProject "AFImagePager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A10306717114B9100333366 /* Debug */,
@@ -376,13 +320,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A10306917114B9100333366 /* Build configuration list for PBXNativeTarget "KIImagePager" */ = {
+		2A10306917114B9100333366 /* Build configuration list for PBXNativeTarget "AFImagePager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A10306A17114B9100333366 /* Debug */,
 				2A10306B17114B9100333366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,9 +10,9 @@
 #define kOverlayWidth       50
 #define kOverlayHeight      15
 
-#import "KIImagePager.h"
+#import "AFImagePager.h"
 
-@interface KIImagePager () <UIScrollViewDelegate>
+@interface AFImagePager () <UIScrollViewDelegate>
 {
     __weak id <KIImagePagerDataSource> _dataSource;
     __weak id <KIImagePagerDelegate> _delegate;
@@ -26,7 +26,7 @@
 }
 @end
 
-@implementation KIImagePager
+@implementation AFImagePager
 
 @synthesize dataSource = _dataSource;
 @synthesize delegate = _delegate;

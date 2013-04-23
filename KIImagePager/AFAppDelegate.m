@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Marcus Kida. All rights reserved.
 //
 
-#import "KIAppDelegate.h"
+#import "AFAppDelegate.h"
 
-@implementation KIAppDelegate
+@implementation AFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
