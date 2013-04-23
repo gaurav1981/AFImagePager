@@ -44,7 +44,7 @@ This is how it looks like, after you've set it up:
 ![While loading the Image](http://kimar.github.io/screenshots/kiimagepager/1.png)
 ![After loading the Image](http://kimar.github.io/screenshots/kiimagepager/2.png)
 
-This project is modification of KIImagePaper (https://github.com/kimar/KIImagePager). Thank You Marcus Kida.
+This project is modification of KIImagePager (https://github.com/kimar/KIImagePager). Thank You Marcus Kida.
 
 **The MIT License (MIT)**
 
