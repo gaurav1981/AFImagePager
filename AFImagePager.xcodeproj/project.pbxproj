@@ -31,6 +31,8 @@
 		F42CAAC61726FD650028E1A6 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F42CAABB1726FD650028E1A6 /* AFURLConnectionOperation.m */; };
 		F42CAAC71726FD650028E1A6 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F42CAABD1726FD650028E1A6 /* AFXMLRequestOperation.m */; };
 		F42CAAC81726FD650028E1A6 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F42CAABF1726FD650028E1A6 /* UIImageView+AFNetworking.m */; };
+		F42CAACA1727010D0028E1A6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42CAAC91727010D0028E1A6 /* SystemConfiguration.framework */; };
+		F42CAACC1727012A0028E1A6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42CAACB1727012A0028E1A6 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		F42CAABD1726FD650028E1A6 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFNetworking/AFXMLRequestOperation.m; sourceTree = SOURCE_ROOT; };
 		F42CAABE1726FD650028E1A6 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.h"; sourceTree = SOURCE_ROOT; };
 		F42CAABF1726FD650028E1A6 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/AFNetworking/UIImageView+AFNetworking.m"; sourceTree = SOURCE_ROOT; };
+		F42CAAC91727010D0028E1A6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F42CAACB1727012A0028E1A6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42CAACC1727012A0028E1A6 /* MobileCoreServices.framework in Frameworks */,
+				F42CAACA1727010D0028E1A6 /* SystemConfiguration.framework in Frameworks */,
 				2A10309D171169C100333366 /* CoreGraphics.framework in Frameworks */,
 				2A10309B171169B300333366 /* QuartzCore.framework in Frameworks */,
 				2A10304A17114B9100333366 /* UIKit.framework in Frameworks */,
@@ -111,6 +117,8 @@
 		2A10304817114B9100333366 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F42CAACB1727012A0028E1A6 /* MobileCoreServices.framework */,
+				F42CAAC91727010D0028E1A6 /* SystemConfiguration.framework */,
 				2A10309C171169C100333366 /* CoreGraphics.framework */,
 				2A10309A171169B300333366 /* QuartzCore.framework */,
 				2A10304917114B9100333366 /* UIKit.framework */,

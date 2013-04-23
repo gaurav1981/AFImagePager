@@ -1,5 +1,5 @@
 //
-//  KIViewController.h
+//  AFViewController.h
 //  AFImagePager
 //
 //  Created by Marcus Kida on 07.04.13. Supoprt for AFNetworking added by Gaurav Verma
