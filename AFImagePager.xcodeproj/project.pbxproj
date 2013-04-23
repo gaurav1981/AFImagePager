@@ -139,9 +139,8 @@
 				2A10306517114B9100333366 /* AFViewController.m */,
 				2A10305017114B9100333366 /* Supporting Files */,
 			);
-			name = AFImagePager;
-			path = KIImagePager;
-			sourceTree = "<group>";
+			path = AFImagePager;
+			sourceTree = SOURCE_ROOT;
 		};
 		2A10305017114B9100333366 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -165,8 +164,7 @@
 				2A10306D17114BC300333366 /* AFImagePager.h */,
 				2A10306E17114BC300333366 /* AFImagePager.m */,
 			);
-			name = AFImagePager;
-			path = KIImagePager;
+			path = AFImagePager;
 			sourceTree = "<group>";
 		};
 		F42CAAAC1726FD440028E1A6 /* AFNetworking */ = {
@@ -362,8 +360,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KIImagePager/AFImagePager-Prefix.pch";
-				INFOPLIST_FILE = "KIImagePager/AFImagePager-Info.plist";
+				GCC_PREFIX_HEADER = "AFImagePager/AFImagePager-Prefix.pch";
+				INFOPLIST_FILE = "AFImagePager/AFImagePager-Info.plist";
 				PRODUCT_NAME = AFImagePager;
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,8 +371,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KIImagePager/AFImagePager-Prefix.pch";
-				INFOPLIST_FILE = "KIImagePager/AFImagePager-Info.plist";
+				GCC_PREFIX_HEADER = "AFImagePager/AFImagePager-Prefix.pch";
+				INFOPLIST_FILE = "AFImagePager/AFImagePager-Info.plist";
 				PRODUCT_NAME = AFImagePager;
 				WRAPPER_EXTENSION = app;
 			};
