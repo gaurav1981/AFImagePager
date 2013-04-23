@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Gaurav Verma" => "princeverma@gmail.com" }
 
-  s.source       = { :git => "https://github.com/gauravverma/AFImagePager.git", :commit => 'a4c8571e610d5593d27857ae3f5b48f48d43e4c3' }
+  s.source       = { :git => "https://github.com/gauravverma/AFImagePager.git", :commit => 'd97da9ddb5343262d5ec87579d5af97d66be11c7' }
   s.platform = :ios, '5.0'
 
   s.source_files = 'AFImagePager/AFImagePager/*.{h,m,png}'
