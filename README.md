@@ -1,6 +1,6 @@
-## KIImagePager
+## AFImagePager
 
-This UIView Subclass is used to present Images loaded from the Web and is inspired from foursquare's Image Slideshow. For async load of the Images SDWebImage is used, this has been added as a git Submodule. To initialize and checkout this Submodule after you clone the KIImagePager repository please do the following:
+This UIView Subclass is used to present Images loaded from the Web and is inspired from foursquare's Image Slideshow. For async load of the Images AFNetworking is used, this has been added as a git Submodule. To initialize and checkout this Submodule after you clone the AFImagePager repository please do the following:
 
 ```objective-c
 git submodule update --init --recursive
@@ -43,6 +43,8 @@ This is how it looks like, after you've set it up:
 
 ![While loading the Image](http://kimar.github.io/screenshots/kiimagepager/1.png)
 ![After loading the Image](http://kimar.github.io/screenshots/kiimagepager/2.png)
+
+This project is modification of KIImagePaper (https://github.com/kimar/KIImagePager). Thank You Marcus Kida.
 
 **The MIT License (MIT)**
 
