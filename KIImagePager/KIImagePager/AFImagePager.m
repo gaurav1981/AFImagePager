@@ -1,6 +1,6 @@
 //
-//  KIImagePager.m
-//  KIImagePager
+//  AFImagePager.m
+//  AFImagePager
 //
 //  Created by Marcus Kida on 07.04.13. Supoprt for AFNetworking added by Gaurav Verma
 //  Copyright (c) 2013 Marcus Kida. All rights reserved.
@@ -14,8 +14,8 @@
 
 @interface AFImagePager () <UIScrollViewDelegate>
 {
-    __weak id <KIImagePagerDataSource> _dataSource;
-    __weak id <KIImagePagerDelegate> _delegate;
+    __weak id <AFImagePagerDataSource> _dataSource;
+    __weak id <AFImagePagerDelegate> _delegate;
     
     UIScrollView *_scrollView;
     UIPageControl *_pageControl;

@@ -1,6 +1,6 @@
 //
 //  KIViewController.m
-//  KIImagePager
+//  AFImagePager
 //
 //  Created by Marcus Kida on 07.04.13. Supoprt for AFNetworking added by Gaurav Verma
 //  Copyright (c) 2013 Marcus Kida. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "AFViewController.h"
 
-@interface AFViewController () <KIImagePagerDelegate, KIImagePagerDataSource>
+@interface AFViewController () <AFImagePagerDelegate, AFImagePagerDataSource>
 {
     IBOutlet AFImagePager *_imagePager;
 }
@@ -36,7 +36,7 @@
     _imagePager.pageControl.pageIndicatorTintColor = [UIColor blackColor];
 }
 
-#pragma mark - KIImagePager DataSource
+#pragma mark - AFImagePager DataSource
 - (NSArray *) arrayWithImageUrlStrings
 {
     return [NSArray arrayWithObjects:
