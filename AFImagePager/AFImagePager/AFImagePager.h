@@ -37,9 +37,9 @@
 @property (weak) IBOutlet id <AFImagePagerDataSource> dataSource;
 @property (weak) IBOutlet id <AFImagePagerDelegate> delegate;
 
-@property (assign) UIViewContentMode contentMode;
+@property UIViewContentMode contentMode;
 @property (nonatomic, retain) UIPageControl *pageControl;
-@property (nonatomic, assign) BOOL indicatorDisabled;
+@property (nonatomic) BOOL indicatorDisabled;
 
 - (void) reloadData;
 
